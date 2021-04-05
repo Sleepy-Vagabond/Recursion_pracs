@@ -1,7 +1,7 @@
 #include <iostream>
 #include "Reverse.h"
-#include "Truckloads.h"
-#include "EfficientTruckloads.h"
+#include "TruckLoads.h"
+#include "EfficientTruckLoads.h"
 
 int main(){
     Reverse rev;
