@@ -5,7 +5,7 @@
 
 int main(){
     Reverse rev;
-    TruckLoads truck;
+    Truckloads truck;
     EfficientTruckloads efftruck;
     int i;
     std::string s;
