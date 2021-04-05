@@ -7,7 +7,7 @@ int main(){
     int mode;
     Reverse rev;
     TruckLoads truck;
-    EfficientTruckloads efftruck;
+    EfficientTruckLoads efftruck;
     std::cout << "enter test, 1= reverse digit 2= reverse string 3= truckloads 4= EffTruckloads:";
     std::cin >> mode;
     switch (mode)
@@ -25,8 +25,8 @@ int main(){
         std::cout << "output :" << truck.numTrucks(14,3) << std::endl;
         break;
     case 4:
-        std::cout << "input 14,5 expect 6" << std::endl;
-        std::cout << "output :" << efftruck.numTrucks(14,3) << std::endl;
+        std::cout << "input 1024,5 expect 256" << std::endl;
+        std::cout << "output :" << efftruck.numTrucks(1024,5) << std::endl;
         break;
     default:
         break;
