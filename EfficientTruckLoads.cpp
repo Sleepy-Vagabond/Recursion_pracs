@@ -1,15 +1,15 @@
-#include "EfficientTruckLoads.h"
+#include "EfficientTruckloads.h"
 #include <vector>
 
-EfficientTruckLoads::EfficientTruckLoads(/* args */)
+EfficientTruckloads::EfficientTruckloads(/* args */)
 {
 }
 
-EfficientTruckLoads::~EfficientTruckLoads()
+EfficientTruckloads::~EfficientTruckloads()
 {
 }
 
-int EfficientTruckLoads::numTrucks(int numCrates, int loadSize)
+int EfficientTruckloads::numTrucks(int numCrates, int loadSize)
 {
      static std::vector<int> ref;
      if (ref.empty())

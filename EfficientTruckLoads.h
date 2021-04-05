@@ -1,13 +1,13 @@
 #ifndef EFFICIENTTRUCKLOADS_H
 #define EFFICIENTTRUCKLOADS_H
 
-class EfficientTruckLoads
+class EfficientTruckloads
 {
 private:
     /* data */
 public:
-    EfficientTruckLoads(/* args */);
-    ~EfficientTruckLoads();
+    EfficientTruckloads(/* args */);
+    ~EfficientTruckloads();
     int numTrucks(int numCrates, int loadSize);
 };
 

@@ -1,12 +1,12 @@
 #include <iostream>
 #include "Reverse.h"
 #include "TruckLoads.h"
-#include "EfficientTruckLoads.h"
+#include "EfficientTruckloads.h"
 
 int main(){
     Reverse rev;
     TruckLoads truck;
-    EfficientTruckLoads efftruck;
+    EfficientTruckloads efftruck;
     int i;
     std::string s;
     int numCrates;
