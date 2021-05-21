@@ -3,6 +3,7 @@
 
 #include <vector>
 #include "Sort.h"
+
 class BubbleSort:public Sort
 {
 private:
@@ -13,17 +14,5 @@ public:
     std::vector<int> sort(std::vector<int> list);
 };
 
-BubbleSort::BubbleSort(/* args */)
-{
-}
-
-BubbleSort::~BubbleSort()
-{
-}
-
-std::vector<int> BubbleSort::sort(std::vector<int> list)
-{
-    
-}
 
 #endif
