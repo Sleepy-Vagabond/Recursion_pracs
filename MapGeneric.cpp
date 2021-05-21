@@ -6,7 +6,7 @@ MapGeneric::MapGeneric(/* args */)
 
 std::vector<int> MapGeneric::map(std::vector<int> vec)
 {
-    static int count = 0;
+    
     if (count > vec.size())//if count is biger than the size of vec then there are no more entries to map.
     {
         count = 0; // resets the count once last recursion ocours
@@ -19,3 +19,4 @@ std::vector<int> MapGeneric::map(std::vector<int> vec)
         vec = map(vec); // calls the map function again.
         return vec; // retuns the newly maped vector.
     }
+}

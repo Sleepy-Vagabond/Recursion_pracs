@@ -10,6 +10,6 @@ MapTriple::~MapTriple()
 
 int MapTriple::f(int x)
 {
-    int out = x * 3;
+    int out = x + x + x;
     return out;
 }

@@ -10,6 +10,5 @@ MapSquare::~MapSquare()
 
 int MapSquare::f(int x)
 {
-    int out = x * x;
-    return out;
+    return pow(x,2);
 }
