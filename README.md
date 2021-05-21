@@ -1,2 +1,2 @@
 # Recursion_pracs
-this repository contains all code and vertions of said code related to ADDS prac 4 ect
+this branch contains code for practical 8 Linked Lists
